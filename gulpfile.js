@@ -70,7 +70,7 @@ const sprite = () => {
       inlineSvg: true
     }))
     .pipe(rename("sprite.svg"))
-    .pipe(gulp.dest("build/files/img/footer_svg"));
+    .pipe(gulp.dest("build/files/img//footer_svg"));
 }
 
 exports.sprite = sprite;
